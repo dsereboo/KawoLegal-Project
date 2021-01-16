@@ -1,0 +1,50 @@
+.lineBreaks{
+	border-color: transparent;
+	background-color: #D3D3D3;
+}
+
+.socialIcons{
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+.navbar-wrapper navbar-default navbar-fixed-bottom{
+	background-color: 
+}
+
+.navbar{
+	width: 100%;
+	min-height: 110px;
+	background-color: rgb(59,12,12);
+	border-color: transparent;
+	color: #D14233;
+}
+
+.navbar-wrapper{
+	background-color: rgb(59,12,12);
+}
+
+.navbar-default .navbar-text {
+	color: #fff;
+}
+
+.container-fluid-custom{
+	padding-top: 120px;
+}
+
+.fa a:hover{
+	color: #fff;
+
+
+}
+
+
+
+@media (max-width:768px) {
+	.socialIcons{
+		padding-bottom: 100px;
+	}
+
+
+}
+
