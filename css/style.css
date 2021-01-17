@@ -8,10 +8,6 @@
 	padding-bottom: 50px;
 }
 
-.navbar-wrapper navbar-default navbar-fixed-bottom{
-	background-color: 
-}
-
 .navbar{
 	width: 100%;
 	min-height: 110px;
@@ -19,6 +15,7 @@
 	border-color: transparent;
 	color: #D14233;
 }
+
 
 .navbar-wrapper{
 	background-color: rgb(59,12,12);
@@ -28,16 +25,76 @@
 	color: #fff;
 }
 
+.navbar-default .navbar-nav > li > a{
+	color: #b70303;
+	font-size: 18px;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+	border-style: solid;
+	border-color: #b70303;
+	color: #b70303;
+}
+
+.navbar-default .navbar-nav > .active > a{
+	background-color: transparent;
+	border-style: solid;
+	color: #b70303;
+	border-color: #b70303;
+
+}
+
+.navbar-default .navbar-nav > .active > a:hover{
+	background-color: transparent;
+	color: #b70303;
+}
+
+
+ul.nav.navbar-nav.navbar-right{
+	background: transparent;
+	padding-top: 30px;
+	padding-right: 100px;
+
+
+}
+
+.navbar-toggle{
+	margin-top: 30px;
+	margin-right: 40px;
+}
+
+.navbar-toggle-collapsed{
+	background-color: rgb(59,12,12);
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #b70303;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: rgb(59,12,12);
+}
+
+
+#mynavbar-content.navbar-collapse.collapse.in{
+	border-style: none;
+	padding-top: 30px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	border-style: none;
+	border-color: transparent;
+}
+
 .container-fluid-custom{
 	padding-top: 120px;
+	padding-bottom: 160px;
 }
 
-.fa a:hover{
+.fa:hover{
+	text-decoration: none;
 	color: #fff;
-
-
 }
-
 
 
 @media (max-width:768px) {

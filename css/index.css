@@ -1,0 +1,32 @@
+body
+{
+
+	background-image: url('https://i.pinimg.com/originals/94/f3/0e/94f30eb5eb4b76115576946f38d5aca7.jpg');
+
+}
+
+.navbar{
+	background: transparent;
+}
+
+.text{
+	color: #fff;
+}
+
+
+ul.nav.navbar-nav.navbar-right li{
+	color: rgb(59,12,12);
+}
+
+
+
+.navbar-toggle{
+	background-color: rgb(59,12,12);
+}
+
+
+@media(max-width:768px){
+	.navbar{
+		background-color: rgb(59,12,12);
+	}
+}
